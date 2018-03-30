@@ -1,8 +1,2 @@
-# A simple To-do with Firebase :fire:
+# A simple list with details using React, Redux and Firebase :fire:
 
-## Using:
-
-- React
-- React-Router
-- Firebase
-- Redux
