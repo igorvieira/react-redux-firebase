@@ -1,0 +1,57 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__item {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.list__item-todo {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.list__item:hover {
+  color: magenta;
+  transition: .4s ease;
+}
+
+.list__form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list__input {
+  margin-bottom: 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  font-size: 20px;
+}
+
+.list__button {
+  border: none;
+  outline: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  box-shadow: 2px 3px grey;
+  background: aqua;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 900px) {
+  .list__form {
+    width: 40%;
+  }
+}
