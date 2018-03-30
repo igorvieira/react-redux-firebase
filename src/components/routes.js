@@ -1,9 +1,9 @@
-import {Router, Route, IndexRoute, Redirect} from 'react-router'
+import { Router, Route, IndexRoute } from 'react-router'
 import App from './App'
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import ShowTodo from './App/show-todo'
-import {connect} from 'react-redux'
-import {loadSections} from '../actions/todo'
+import { connect } from 'react-redux'
+import { loadSections } from '../actions/todo'
 import './App/assets/normalize.min.css'
 import './App/assets/style.css'
 
